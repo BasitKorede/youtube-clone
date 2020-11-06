@@ -1,6 +1,9 @@
-# Project Name
+# YOUTUBE-CLONE
 
 > One paragraph statement about the project.
+
+this project is an assignment,assigned by a platform (THE ODIN PROJECT)
+under the HTML and CSS course. 
 
 ![screenshot](./app_screenshot.png)
 
