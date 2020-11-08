@@ -1,0 +1,11 @@
+.navigation{
+  display: flex;
+  text-decoration: none;
+  /* justify-content: space-between; */
+}
+.logo{
+  
+}
+.search-input{
+  border: 1px solid black;
+}
