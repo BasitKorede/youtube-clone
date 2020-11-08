@@ -1,11 +1,26 @@
 .navigation{
   display: flex;
   text-decoration: none;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 .logo{
-  
+  margin: 30px;
 }
 .search-input{
   border: 1px solid black;
+}
+.main{
+
+}
+
+.wrapper{
+max-width:900px;
+margin: 50px ;
+
+}
+.video{
+  width:70%;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
 }

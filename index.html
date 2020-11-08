@@ -9,49 +9,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>youtube-clone</title>
   </head>
-  <body>
-    <header>
-      <nav class="navigation">
+  <header>
+    <nav class="navigation">
+      
         
+      
+
+      <ul>
+        <li><a href=""><span class="logo"> <img  src="images/bar.png" alt="bar"> </span> 
+          <span class="logo"><img  src="images/youtube.png" alt="youtube logo" title="Youtube"></span>
           
+        </a>
+         
+        </li>
         
+        
+            
+      
+      </ul>
 
-        <ul>
-          <li><a href=""> <img src="images/bar.png" alt="bar"> </a></li>
-          
-          <li>
-            <a href=""
-              ><img class="logo" src="images/youtube.png" alt="youtube logo" title="Youtube"
-            /></a>
-          </li>
-        </ul>
+      <ul>
+        <li>
+          <!-- <input
+            class="search__input"
+            type="text"
+            placeholder="Search"
+            size="60"
+            style="height:25px;"
+          /> -->
 
-        <ul>
-          <li>
-            <input
-              class="search__input"
-              type="text"
-              placeholder="Search"
-              size="60"
-              style="height:25px;"
+          <button class="search-botton" type="button">
+            <img
+              class="search__button"
+              src="images/seach.png"
+              width="20"
+              height="20"
+              alt="Search"
             />
+          </button>
+        </li>
+      </ul>
 
-            <button class="search-botton" type="button">
-              <img
-                class="search__button"
-                src="images/seach.png"
-                width="20"
-                height="20"
-                alt="Search"
-              />
-            </button>
-          </li>
-        </ul>
+      <ul>
+        <li> <a href=""> <img src="images/th.png" alt="app icon"> </a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+  
+    <div class="main">
 
-        <ul>
-          <li> <a href=""> <img src="images/th.png" alt="app icon"> </a></li>
-        </ul>
-      </nav>
-    </header>
+      <section class="wrapper">
+      <video class="video"  controls>
+        <source src="videos/node.mp4" type="video/mp4">
+        <source src="videos/node.ogg" type="video/ogg">
+    
+      </video>
+      </section>
+    </div>
   </body>
 </html>
