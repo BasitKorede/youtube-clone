@@ -1,26 +1,76 @@
-.navigation{
+.navi{
   display: flex;
-  text-decoration: none;
+  margin-bottom: 30px;
+
   justify-content: space-between;
 }
-.logo{
-  margin: 30px;
+.navi ul{
+   display: flex;
+   
 }
-.search-input{
-  border: 1px solid black;
+
+
+.material-icons{
+  margin:10px 15px;
+  text-align: center;
+  color: black;
+  padding: 8px;
+}
+.youtube{
+  margin-top: 20px;
+  margin-right: 80px;
+}
+.basit{
+  margin-top: 14px;
+  border-radius: 25px 15px;
+}
+.input{
+width: 600px;
+height:24px;
+margin-right: 0%;
+margin-bottom: 20px;
+margin-top: 20px;
+border: 1px solid #000;
+padding: 2px;
+border-radius: 2px;
+border-left: 1px thin black;
+}
+.search-botton{
+width: 100px;
+height:30px;
+margin-left: 0%;
+margin-top:20px;
+border-left: none;
+border: 1px solid #000;
+
 }
 .main{
+  width: 100%;
 
 }
 
-.wrapper{
-max-width:900px;
-margin: 50px ;
-
+.sec-1{
+  width: 70%;
+  /* background-color: #808080; */
 }
+
 .video{
-  width:70%;
-  margin-right: auto;
-  margin-left: auto;
-  border: none;
+  margin-left: 50px;
+  padding: 5px;
+}
+.trend{
+  font-size:80%;;
+  margin-left: 50px;
+  color:blue;
+  text-decoration: none;
+}
+.head{
+  margin:10px 50px;
+  font-size: 120%;
+
+}
+.views{
+  font-size:90%;
+  color: #808080;
+  margin:10px 50px;
 }
