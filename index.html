@@ -1,70 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href=" css/index.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>youtube-clone</title>
   </head>
-  <header>
-    <nav class="navigation">
-      
-        
-      
 
-      <ul>
-        <li><a href=""><span class="logo"> <img  src="images/bar.png" alt="bar"> </span> 
-          <span class="logo"><img  src="images/youtube.png" alt="youtube logo" title="Youtube"></span>
-          
-        </a>
-         
-        </li>
-        
-        
-            
-      
-      </ul>
-
-      <ul>
-        <li>
-          <!-- <input
-            class="search__input"
-            type="text"
-            placeholder="Search"
-            size="60"
-            style="height:25px;"
-          /> -->
-
-          <button class="search-botton" type="button">
-            <img
-              class="search__button"
-              src="images/seach.png"
-              width="20"
-              height="20"
-              alt="Search"
-            />
-          </button>
-        </li>
-      </ul>
-
-      <ul>
-        <li> <a href=""> <img src="images/th.png" alt="app icon"> </a></li>
-      </ul>
-    </nav>
-  </header>
   <body>
-  
-    <div class="main">
+    <header class="wrapper">
+      <nav class="navi">
+        <ul>
+          <li>
+            <a href=""> <i class="material-icons">menu</i></a>
+          </li>
+          <li>
+            <a href=""> <img  class="youtube" src="images/youtube.jpg" alt="youtube"></a>
+          </li>
+        </ul>
 
-      <section class="wrapper">
-      <video class="video"  controls>
-        <source src="videos/node.mp4" type="video/mp4">
-        <source src="videos/node.ogg" type="video/ogg">
-    
-      </video>
+        <ul>
+          
+            <input type="text" name="search" class="input" placeholder="Search" />
+            <button class="search-botton"> <i class="material-icons">search</i></button>
+          
+        </ul>
+
+        <ul>
+          <li>
+            <a href=""> <i class="material-icons">video-call</i></a>
+          </li>
+          <li>
+            <a href=""> <i class="material-icons">apps</i></a>
+            </li>
+            <li>
+              <a href=""> <i class="material-icons">notifications</i></a>
+            </li>
+            <li> <a href=""><img class="basit" src="images/basit.jpg" alt="gmail"></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main">
+      <section class="sec-1">
+      <iframe
+      class="video"
+        width="727"
+        height="409"
+        src="https://www.youtube.com/embed/ZPBWje2kJ_U"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <p><a  class="trend"  href="">#1 ON TRENDING</a></p>
+      <p class="head">James BEST Hightlight 2020 Playoffs & Finals </p>
+      <p class="views">30,456,678 views. Nov 10,2020 </p>
+      
       </section>
     </div>
   </body>
