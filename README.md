@@ -1,37 +1,33 @@
 # YOUTUBE-CLONE
 
-> One paragraph statement about the project.
+> This project is assigned by a plattform (THE ODIN PROJECT) under the (course HTML and CSS).
 
-this project is an assignment,assigned by a platform (THE ODIN PROJECT)
-under the HTML and CSS course.
-
-![screenshot](./app_screenshot.png)
+![screenshot](./clone.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://basit-youtube-clone.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/BasitKorede/youtube-clone
 
 ```
 
 - Install Dependencies
 
 ```bash
-npm run install
+npm  install
 ```
 
 To run StyleLint by itself, you may run the lint task:
@@ -73,9 +69,7 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Arigbabuwo Basit: [@BasitKorede](https://github.com/BasitKorede)
 
 ## 🤝 Contributing
 
@@ -89,9 +83,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [@adejam](https://github.com/adejam)
+- [@bolah2009](https://github.com/bolah2009)
 
 ## 📝 License
 
