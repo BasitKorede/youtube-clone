@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.style.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/index.css" />
     <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>youtube-clone</title>
   </head>
@@ -17,18 +20,15 @@
             <a href=""> <i class="material-icons">menu</i></a>
           </li>
           <li>
-            <a href="">
+            <a href=""
+              ><span class="discernible">youtube</span>
               <svg
                 viewBox="0 0 200 60"
                 preserveAspectRatio="xMidYMid meet"
                 focusable="false"
                 class="youtube-logo"
               >
-                <g
-                  viewBox="0 0 200 60"
-                  preserveAspectRatio="xMidYMid meet"
-                  class="style-scope ytd-topbar-logo-renderer"
-                >
+                <g class="style-scope ytd-topbar-logo-renderer">
                   <g class="style-scope ytd-topbar-logo-renderer">
                     <path
                       fill="#FF0000"
@@ -112,10 +112,18 @@
         </ul>
 
         <ul class="input-wrapper">
-          <input type="text" name="search" class="input" placeholder="Search" />
-          <button class="search-botton">
-            <yt-icon class="style-scope ytd-searchbox"
-              ><svg
+          <li class="input-list-item">
+            <input
+              aria-label="search"
+              type="text"
+              name="search"
+              class="input"
+              placeholder="Search"
+            />
+          </li>
+          <li class="button-list-item">
+            <button type="button" aria-label="button" class="search-botton">
+              <svg
                 viewBox="0 0 24 24"
                 preserveAspectRatio="xMidYMid meet"
                 focusable="false"
@@ -128,10 +136,10 @@
                   ></path>
                 </g>
               </svg>
-            </yt-icon>
-          </button>
-          <yt-icon class="style-scope ytd-searchbox"
-            ><svg
+            </button>
+          </li>
+          <li>
+            <svg
               viewBox="0 0 24 24"
               preserveAspectRatio="xMidYMid meet"
               focusable="false"
@@ -144,12 +152,12 @@
                 ></path>
               </g>
             </svg>
-          </yt-icon>
+          </li>
         </ul>
 
         <ul>
           <li>
-            <a href="">
+            <a href="" aria-label="create video">
               <svg
                 viewBox="0 0 24 24"
                 preserveAspectRatio="xMidYMid meet"
@@ -181,9 +189,9 @@
     <div class="main">
       <section class="main-video">
         <iframe
-          class="video"
+          title="James BEST Hightlight 2020 Playoffs & Finals"
+          class="iframe-video"
           src="https://www.youtube.com/embed/ZPBWje2kJ_U"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
@@ -198,7 +206,7 @@
 
           <ul class="cont">
             <li>
-              <a href="">
+              <a href="" aria-label="thumbs down icon">
                 <svg
                   viewBox="0 0 24 24"
                   preserveAspectRatio="xMidYMid meet"
@@ -214,10 +222,10 @@
                 </svg>
               </a>
             </li>
-            <span class="likes">700k</span>
+            <li class="likes">700k</li>
 
             <li>
-              <a href="">
+              <a href="" aria-label="thumbs up icon">
                 <svg
                   viewBox="0 0 24 24"
                   preserveAspectRatio="xMidYMid meet"
@@ -233,9 +241,9 @@
                 </svg>
               </a>
             </li>
-            <span class="likes">2.5k</span>
+            <li class="likes">2.5k</li>
             <li>
-              <a href="">
+              <a href="" aria-label="Share icon">
                 <svg
                   viewBox="0 0 24 24"
                   preserveAspectRatio="xMidYMid meet"
@@ -251,9 +259,9 @@
                 </svg>
               </a>
             </li>
-            <span class="likes">SHARE</span>
+            <li class="likes">SHARE</li>
             <li>
-              <a href="">
+              <a href="" aria-label="Save icon">
                 <svg
                   viewBox="0 0 24 24"
                   preserveAspectRatio="xMidYMid meet"
@@ -269,10 +277,10 @@
                 </svg>
               </a>
             </li>
-            <span class="likes">SAVE</span>
+            <li class="likes">SAVE</li>
 
             <li>
-              <a href="">
+              <a href="" aria-label="option icon">
                 <svg
                   viewBox="0 0 24 24"
                   preserveAspectRatio="xMidYMid meet"
@@ -289,12 +297,12 @@
             </li>
           </ul>
         </div>
-        <article class="main-video-details">
+        <section class="main-video-details">
           <ul class="main-video-production">
             <li class="main-video-list">
               <a href="" class="production"> BT </a>
               <div class="production-details">
-                <div class="production-name">Basit Production</div>
+                <h5 class="production-name">Basit Production</h5>
                 <div class="subscribers">1.2k subscribers</div>
               </div>
             </li>
@@ -303,7 +311,7 @@
               <button class="sub-button" type="button">SUBSCRIBE</button>
             </li>
           </ul>
-        </article>
+        </section>
 
         <p class="video-description">
           LeBron James' best plays, highlights and moments from his 3 seasons. 2017 - 2020
