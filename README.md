@@ -4,7 +4,7 @@
 
 ![screenshot](./clone.png)
 
-Additional description about the project and its features.
+This project is an assignment on enbbeding videos and images to your website .
 
 ## Built With
 
