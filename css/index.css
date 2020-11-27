@@ -2,3 +2,6 @@
 This imports the `reset.css` file */
 @import './reset.css';
 @import './style.css';
+@import './screens/small-screen.css' screen and (max-width: 320px);
+@import './screens/medium-screen.css' screen and (max-width: 525px);
+@import './screens/large-screen.css' screen and (max-width: 993px);

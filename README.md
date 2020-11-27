@@ -1,6 +1,6 @@
 # YOUTUBE-CLONE
 
-> This project is assigned by a plattform (THE ODIN PROJECT) under the (course HTML and CSS).
+> This project followes the guilde line of [THE ODIN PROJECT](https://www.theodinproject.com/courses/html-and-css/lessons/grid) under the (course HTML and CSS) to clone a youtube page [YouTube](https://www.youtube.com/watch?v=Z_sVBF68N9o).
 
 ![screenshot](./clone.png)
 
@@ -9,7 +9,12 @@ This project is an assignment on enbbeding videos and images to your website .
 ## Built With
 
 - HTML
+  - Semantic HTML
+  - HTML Forms
+  - HTML Heading and Sectioning
 - CSS
+  - Flexbox
+  - Media query
 
 ## Live Demo
 
@@ -20,7 +25,7 @@ This project is an assignment on enbbeding videos and images to your website .
 - Clone the project
 
 ```bash
-git clone https://github.com/BasitKorede/youtube-clone
+ git clone https://github.com/BasitKorede/youtube-clone
 
 ```
 
@@ -64,7 +69,6 @@ npm run html-validator
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
@@ -85,6 +89,8 @@ Give a ⭐️ if you like this project!
 
 - [@adejam](https://github.com/adejam)
 - [@bolah2009](https://github.com/bolah2009)
+- [THE ODIN PROJECT](https://www.theodinproject.com/courses/html-and-css/lessons/grid)
+- [YouTube](https://www.youtube.com/watch?v=VlgAcjhykBg)
 
 ## 📝 License
 
