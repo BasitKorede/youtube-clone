@@ -142,17 +142,6 @@
   font-weight: bolder;
   border-radius: 2px;
   font-family: arial, Verdana, Geneva, Tahoma, sans-serif;
-  margin-right: 20px;
-}
-
-.production-name {
-  font-size: 90%;
-  font-weight: bold;
-}
-
-.subscribers {
-  font-size: 80%;
-  color: #808080;
 }
 
 .video-description {
