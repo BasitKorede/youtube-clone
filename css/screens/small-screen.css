@@ -1,0 +1,11 @@
+.wrapper {
+  width: 98%;
+}
+
+.material-icons {
+  margin: 5px;
+  text-align: center;
+  color: #808080;
+  padding: 4px;
+  height: 24px;
+}

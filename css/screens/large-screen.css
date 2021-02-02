@@ -1,0 +1,18 @@
+.main {
+  width: 100%;
+  display: block;
+}
+
+.main-video {
+  width: 100%;
+}
+
+.video {
+  width: 97%;
+  height: 409px;
+  padding: 5px;
+}
+
+.latest-video {
+  width: 90%;
+}

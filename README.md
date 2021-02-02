@@ -1,37 +1,38 @@
 # YOUTUBE-CLONE
 
-> One paragraph statement about the project.
+> This project follows the guideline of [THE ODIN PROJECT](https://www.theodinproject.com/courses/html-and-css/lessons/grid) under the (course HTML and CSS) to clone a youtube page [YouTube](https://www.youtube.com/watch?v=Z_sVBF68N9o).
 
-this project is an assignment,assigned by a platform (THE ODIN PROJECT)
-under the HTML and CSS course. 
+![screenshot](./clone.png)
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+This project is an assignment on embedding videos and images to your website .
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+  - Semantic HTML
+  - HTML Forms
+  - HTML Heading and Sectioning
+- CSS
+  - Flexbox
+  - Media query
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://basit-youtube-clone.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+ git clone https://github.com/BasitKorede/youtube-clone
 
 ```
 
 - Install Dependencies
 
 ```bash
-npm run install
+npm  install
 ```
 
 To run StyleLint by itself, you may run the lint task:
@@ -68,14 +69,11 @@ npm run html-validator
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Arigbabuwo Basit: [@BasitKorede](https://github.com/BasitKorede)
 
 ## 🤝 Contributing
 
@@ -89,9 +87,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [@adejam](https://github.com/adejam)
+- [@bolah2009](https://github.com/bolah2009)
+- [THE ODIN PROJECT](https://www.theodinproject.com/courses/html-and-css/lessons/grid)
+- [YouTube](https://www.youtube.com/watch?v=VlgAcjhykBg)
 
 ## 📝 License
 

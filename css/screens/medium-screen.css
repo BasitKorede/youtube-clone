@@ -1,0 +1,49 @@
+.input {
+  display: none;
+}
+
+.search-botton {
+  display: none;
+}
+
+.main {
+  width: 100%;
+}
+
+.main-video {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.video {
+  width: 100%;
+  height: 270px;
+}
+
+.small-search-icon {
+  width: 20px;
+  height: 24px;
+  margin: 5px 10px;
+  display: block;
+}
+
+.input-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.latest-video {
+  width: 95%;
+  box-sizing: border-box;
+}
+
+.latest-video-side-show {
+  margin-top: 5px;
+}
+
+.updates {
+  display: block;
+  width: 90%;
+}
