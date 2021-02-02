@@ -1,6 +1,6 @@
 # YOUTUBE-CLONE
 
-> This project follows  the guideline of [THE ODIN PROJECT](https://www.theodinproject.com/courses/html-and-css/lessons/grid) under the (course HTML and CSS) to clone a youtube page [YouTube](https://www.youtube.com/watch?v=Z_sVBF68N9o).
+> This project follows the guideline of [THE ODIN PROJECT](https://www.theodinproject.com/courses/html-and-css/lessons/grid) under the (course HTML and CSS) to clone a youtube page [YouTube](https://www.youtube.com/watch?v=Z_sVBF68N9o).
 
 ![screenshot](./clone.png)
 
